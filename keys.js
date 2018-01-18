@@ -1,5 +1,8 @@
 console.log('this is loaded');
 
+
+//  Twitter API keys
+
 var twitterKeys = {
   consumer_key: '2PkbCjjXbz8fJrT0nelUpj0ZW',
   consumer_secret: 'uN7bvUgBhn0pJzvP6iGoWPiV1iQsjf7YOTsNiiWbXLuB6WWuIO',

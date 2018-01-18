@@ -1,15 +1,27 @@
-// require necessary node modules
-const fs = require("fs");
+// node array set-up
 
-var twitter = require("twitter");
-var twitterKeys = require("./keys.js").twitterKeys
-var twitterObj = new twitter(twitterKeys);
+var liri = process.argv;
+
+// require necessary node modules
+
+const fs = require("fs");
 
 var request = require("request");
 
-var spotify = require("node-spotify-api");
+// requiring twitter.js
+var twitter = require("./twitter");
+
+if (liri[2] === "my-tweets") {
+	twitter.myTweets();
+}
 
 
-console.log('Would you like to play a game?');
+
+// var spotify = require("node-spotify-api");
+
+
+
+
+
 
 
