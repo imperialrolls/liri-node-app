@@ -1,8 +1,5 @@
 console.log('this is loaded');
 
-
-//  Twitter API keys
-
 var twitterKeys = {
   consumer_key: '2PkbCjjXbz8fJrT0nelUpj0ZW',
   consumer_secret: 'uN7bvUgBhn0pJzvP6iGoWPiV1iQsjf7YOTsNiiWbXLuB6WWuIO',
@@ -13,3 +10,16 @@ var twitterKeys = {
 module.exports = {
 	twitterKeys: twitterKeys,
 };
+
+var spotifyKeys = {
+	id: '4032e0450d7145ffa26c9327dfef5d57' ,
+	secret: 'e219789f84204011a644876bdef7ce0e',
+}
+
+module.exports = {
+	spotifyKeys: spotifyKeys,
+};
+
+
+//Client ID 4032e0450d7145ffa26c9327dfef5d57
+//Client Secret e219789f84204011a644876bdef7ce0e
