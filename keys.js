@@ -7,18 +7,19 @@ var twitterKeys = {
   access_token_secret: 'OtEv0T1sczunQ01XYDzYf1bZhalIqKV2r9EU0g6UhUQHL',
 }
 
-module.exports = {
-	twitterKeys: twitterKeys,
-};
-
 var spotifyKeys = {
-	id: '4032e0450d7145ffa26c9327dfef5d57' ,
+	id: '4032e0450d7145ffa26c9327dfef5d57',
 	secret: 'e219789f84204011a644876bdef7ce0e',
 }
 
+var omdbKey = '40e9cece';
+
 module.exports = {
+	omdbKey: omdbKey,
 	spotifyKeys: spotifyKeys,
+	twitterKeys: twitterKeys,
 };
+
 
 
 //Client ID 4032e0450d7145ffa26c9327dfef5d57
