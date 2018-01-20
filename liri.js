@@ -1,3 +1,15 @@
+/*liri.js can take in one of the following commands:
+
+   * `my-tweets`
+
+   * `spotify-this-song`
+
+   * `movie-this`
+
+   * `do-what-it-says`*/
+
+
+
 //require NPM and twitter API keys & token
 
 var twitter = require("twitter");
