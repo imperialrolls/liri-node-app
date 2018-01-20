@@ -131,7 +131,11 @@ function doWhatItSays(){
 		spotifyThisSong(randomSong[1]);
 	});
 }
+
+
 //primary function which iniates all other functions
 switchCommand();
+
+
 
 
